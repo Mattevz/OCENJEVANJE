@@ -1,0 +1,40 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+#GlavniOkvir {
+	display: flex;
+	flex-warp: nowarp;
+	align-items: flex-start; 
+}
+#Levo {
+	background-color: blue;
+	min-height: 300px;
+	width: 200px;
+}
+#Desno {
+	background-color: gray;
+	height: 300px;
+	width: 800px;
+	align-items: center;
+}
+#Spodaj {
+	background-color: red;
+	height: 100px;
+	width: 1000px;
+	text-align: center;
+	flex-direction: colum;
+	font-size: 25px;
+}
+.Tabela {
+	border: 1px solid black;
+	background-color: white;
+	width: 500px;
+	border-collapse: collapse;
+}
+.Tabela th,td {
+	border: 1px solid black;
+}
+h1 {
+	color: white;
+}
